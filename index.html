@@ -5,6 +5,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>Etch-a-sketch</header>
+        <div id="selectGrid">
+            <p id="sizeSelectText" class="select">Choose a grid size between 1-100: </p>
+            <input type="text" id="gridSizeValue" autofocus="autofocus" class="select">
+            <button id="gridSubmit" class="select">Choose</button>
+            <p id="errorMessage"></p>
+        </div>
+        <div id="colors">
+            <button id="red" class="color">Red</button>
+            <button id="blue" class="color">Blue</button>
+            <button id="black" class="color">Black</button>
+            <button id="yellow" class="color">Yellow</button>
+        </div>
+        <div id="newReset">
+            <button id="reset">Reset</button>
+            <button id="newGrid">New Grid</button>
+        </div>
+        <div id="container"></div>
         <script src="function.js"></script>
     </body>
 </html>
